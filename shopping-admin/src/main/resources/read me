@@ -1,0 +1,3 @@
+@RequestBody使用注意事项：
+    1、ajax提交form表单时，如果controller方法使用@RequestBody注解接收，ajax 请求data必须为json字符串。
+    2、form表单直接submit时，controller方法可以只用实体类接收参数，但不可以使用@RequestBody注解。
