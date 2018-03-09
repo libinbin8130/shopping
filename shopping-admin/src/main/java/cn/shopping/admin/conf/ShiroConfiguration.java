@@ -37,7 +37,7 @@ public class ShiroConfiguration {
 
         shiroFilterFactoryBean.setLoginUrl("/login");
         shiroFilterFactoryBean.setSuccessUrl("/index");
-        shiroFilterFactoryBean.setUnauthorizedUrl("/pages/403");
+        shiroFilterFactoryBean.setUnauthorizedUrl("/common/403");
 
         //过滤连
         Map<String,String> filterChainDefinitionMap = new LinkedHashMap<>();
